@@ -1,2 +1,3 @@
-.vagran
+.vagrant
 .swp
+roles/geerlingguy.apache

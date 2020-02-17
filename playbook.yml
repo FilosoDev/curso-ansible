@@ -4,7 +4,10 @@
 
   tasks:
 
-   #apt update; apt install apache2
-   - name: instalação do Apache
-     apt:
-       name: apache2
+    - name: inclui a role do curso
+      include_role:
+        name: geerlingguy.apache
+
+    - name: inclui a role do curso
+      include_role:
+        name: curso

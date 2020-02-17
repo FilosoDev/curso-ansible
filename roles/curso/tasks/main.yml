@@ -1,0 +1,6 @@
+- name: envia um arquivo index.html para o servidor
+  template:
+    src: templates/index.html
+    dest: /var/www/html/index.html
+  vars:
+    sistema: qualquer coisa
